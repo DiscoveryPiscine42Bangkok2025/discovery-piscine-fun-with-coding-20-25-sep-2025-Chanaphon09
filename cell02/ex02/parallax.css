@@ -1,1 +1,50 @@
+/* Reset */
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
 
+/* Parallax sections */
+.parallax {
+  position: relative;
+  height: 100vh;  /* full screen */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg1 {
+  background-image: url('image1.jpg'); /* แทนที่ด้วยไฟล์ภาพจริง */
+}
+
+.bg2 {
+  background-image: url('image2.jpg'); /* แทนที่ด้วยไฟล์ภาพจริง */
+}
+
+/* Text in the middle of parallax */
+.caption {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+}
+
+.caption .text {
+  background-color: rgba(0,0,0,0.5);
+  padding: 20px;
+  font-size: 30px;
+  letter-spacing: 2px;
+  border-radius: 10px;
+}
+
+/* Black block section */
+.block {
+  background-color: black;
+  color: white;
+  padding: 100px 20px;
+  text-align: center;
+}
